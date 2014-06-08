@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch=".."
+           review="review.cyanogenmod.org" />
+
+  <default revision="refs/heads/cm-11.0"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
+
+  <project path="device/samsung/i9300" name="LegacyExynos/android_device_samsung_i9300" />
+  <project path="vendor/samsung/i9300" name="LegacyExynos/android_vendor_samsung_i9300" />
+
+  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" />
+  <project path="kernel/samsung/smdk4412" name="CyanogenMod/android_kernel_samsung_smdk4412" />
+
+</manifest>
